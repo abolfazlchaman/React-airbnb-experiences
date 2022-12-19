@@ -1,6 +1,6 @@
 # What is this?
 airbnb experiences but remade with **React** & pure css,html for learning purposes.
-![alt text](https://github.com/abolfazlchaman/React-airbnb-experiences/blob/master/PreviewCapture.PNG)
+![alt text](https://github.com/abolfazlchaman/React-airbnb-experiences/blob/master/Capture.PNG)
 # How Can i use this?
 *npm i* to install all dependencies
 
