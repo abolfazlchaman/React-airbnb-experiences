@@ -1,0 +1,110 @@
+/* Container holding the image and the text */
+.container--img {
+  position: relative;
+  text-align: center;
+}
+
+.sold--out {
+  font-family: "Poppins-regular";
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 110%;
+
+  /* or 11px */
+  text-align: center;
+
+  color: #222222;
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 6px;
+}
+
+/* Top left text */
+.top-left {
+  color: black;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-left: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15vh;
+  min-height: 450px;
+}
+.Frame {
+  width: 80vw;
+  height: 30vw;
+  max-width: 395px;
+  max-height: 250px;
+  margin-top: 25px;
+}
+.card--container > * > img {
+  border-radius: 9px;
+  width: 175px;
+  height: 235px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: cover;
+}
+.card--container {
+  min-width: 175px;
+  min-height: 410px;
+  margin: 0px 10px;
+  width: fit-content;
+  flex-wrap: nowrap;
+  background: #ffffff;
+}
+.star--rating {
+  width: 18px;
+  height: 18px;
+}
+.card--body--container {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+}
+.card--body--container > p {
+  display: flex;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+
+.faded {
+  opacity: 0.5;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+h4 > * {
+  padding: 0px 5px;
+}
+h6 {
+  justify-self: flex-end;
+  margin: 2px 0px;
+}
+b {
+  font-family: "Poppins-SemiBold";
+  font-weight: 550;
+}

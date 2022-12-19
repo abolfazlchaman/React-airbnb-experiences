@@ -1,0 +1,13 @@
+.logo {
+  width: 80px;
+  height: 25px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+header {
+  min-height: 70px;
+  display: flex;
+}
+.shadow{
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}

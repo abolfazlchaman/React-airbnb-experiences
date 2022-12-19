@@ -1,0 +1,44 @@
+.Frame {
+  width: 80vw;
+  height: 30vw;
+  max-width: 395px;
+  max-height: 250px;
+margin-top: 25px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.title{
+  padding-left: 35px;
+
+width: 360px;
+height: 40px;
+
+font-weight: 600;
+font-size: 32px;
+line-height: 110%;
+font-family: "Poppins-SemiBold";
+text-align: left;
+
+color: #000000;
+}
+.body{
+  padding-left: 35px;
+  text-align: left;
+  width: 320px;
+  height: 56px;
+  
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+font-family: "Poppins-regular";
+  
+  /* or 18px */
+  
+  color: #222222;
+  
+  
+}
